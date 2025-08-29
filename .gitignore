@@ -1,0 +1,34 @@
+
+## 1.2 `.gitignore` (root)
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.ENV/
+.env
+.env.*
+
+# Notebooks / checkpoints
+*.ipynb
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Data & outputs
+data/
+datasets/
+reports/
+artifacts/
+*.png
+*.pdf
+*.csv
+*.json
+!ML projects/**/data/.gitkeep
+!ML projects/**/reports/.gitkeep
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
