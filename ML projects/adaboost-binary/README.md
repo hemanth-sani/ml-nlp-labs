@@ -24,7 +24,7 @@ The repo includes clean CLI scripts, reproducible runs, and prediction files in 
 ---
 
 ## 🗂 Project layout
-
+```
 NLP projects/Minibert/
 ├─ README.md
 ├─ requirements.txt
@@ -37,7 +37,7 @@ NLP projects/Minibert/
 ├─ utils.py # datasets, loaders, helpers, metrics
 ├─ classifier.py # CLI: --option {pretrain,finetune}
 └─ sanity_check.py # quick shape test for the encoder
-
+```
 ---
 
 ## 🔧 Environment
@@ -48,6 +48,7 @@ cd "NLP projects\Minibert"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
 📚 Data format
 
 Put all files in data/. Each line has a label and text:
